@@ -18,6 +18,7 @@ body{
     border-radius: 20px;
     background-color: white;
     position: relative;
+    filter: drop-shadow(0px 25px 25px rgba(0, 0, 0, 0.0477));
 }
 
 .textMain{
@@ -27,8 +28,14 @@ body{
     font-weight: bold;
     font-family: "Outfit", sans-serif;
     color: #1F314F;
-    margin: 16px 0px;
+    margin-top: 24px;
+    margin-bottom: 16px;
     font-size: 22px;
+    letter-spacing: 0px;
+}
+
+img{
+    display: block;
 }
 
 .textSecondary{
@@ -39,7 +46,7 @@ body{
     font-size: 15px;
     letter-spacing: 0.2px;
     line-height: 140%;
-    font-weight: 400;
+    font-weight:normal;
 }
 
 .text{
